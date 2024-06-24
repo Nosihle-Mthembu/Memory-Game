@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(52, 64, 92, 0.911);
+}
+
+h1{
+    color: rgba(222, 235, 211, 0.808);
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.card {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
